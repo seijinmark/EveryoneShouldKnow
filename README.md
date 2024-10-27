@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/r6cygQy/image-2024-10-27-005847761.png" alt="Project Logo" border="0">
+<img src="https://i.ibb.co/H7CSChh/esk2.png" style="display: block; margin: 0 auto;" alt="Project Logo" border="0">
 
 <br>
 
@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License.
+Este projeto está licenciado sob a Licença MIT. A Licença MIT é uma licença de software permissiva que permite o uso, cópia, modificação e distribuição do software, desde que o aviso de direitos autorais e a permissão sejam incluídos em todas as cópias ou partes substanciais do software. Esta licença não oferece garantias e os autores ou detentores dos direitos autorais não são responsáveis por quaisquer reivindicações, danos ou outras responsabilidades decorrentes do uso do software.
 
 </details>
 
@@ -89,4 +89,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. The MIT License is a permissive software license that allows for use, copying, modification, and distribution of the software, provided that the copyright notice and permission are included in all copies or substantial portions of the software. This license comes with no warranties, and the authors or copyright holders are not liable for any claims, damages, or other liabilities arising from the use of the software.
