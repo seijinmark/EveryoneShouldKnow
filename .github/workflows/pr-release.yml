@@ -1,4 +1,4 @@
-# Thanks to https://github.com/museofficial/muse/blob/master/.github/workflows/pr-snapshot.yml for this amazing workflow.
+# Thanks to https://github.com/museofficial/muse/blob/master/.github/workflows/pr-release.yml for this amazing workflow.
 
 name: Release snapshot of PR
 on:
@@ -8,7 +8,7 @@ on:
       - completed
 
 env:
-  REGISTRY_IMAGE: ghcr.io/seijinmark/EveryoneShouldKnow
+  REGISTRY_IMAGE: ghcr.io/seijinmark/esk
 
 jobs:
   release-and-comment:
