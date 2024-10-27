@@ -50,7 +50,16 @@ show_log = os.getenv('SHOW_LOG', 'false').lower() == 'true'
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.online, activity=discord.Game(name="Katchau!"))
+    rich_presence = os.getenv('RICH_PRESENCE', 'Katchau!')
+    activity = os.getenv('ACTIVITY', 'playing').lower()
+    activity_type = discord.ActivityType.playing
+    if activity == 'listening':
+        activity_type = discord.ActivityType.listening
+    elif activity == 'watching':
+        activity_type = discord.ActivityType.watching
+    elif activity == 'streaming':
+        activity_type = discord.ActivityType.streaming
+    await client.change_presence(status=discord.Status.online, activity=discord.Activity(name=rich_presence, type=activity_type))
     print('Bot online!')
     print(f'Connected as {client.user.name}')
     print('------')
