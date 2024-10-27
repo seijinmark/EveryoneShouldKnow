@@ -8,7 +8,7 @@ on:
       - completed
 
 env:
-  REGISTRY_IMAGE: ghcr.io/seijinmark/esk
+  REGISTRY_IMAGE: ghcr.io/seijinmark/EveryoneShouldKnow
 
 jobs:
   release-and-comment:
