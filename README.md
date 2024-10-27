@@ -1,4 +1,6 @@
-<img src="https://i.ibb.co/H7CSChh/esk2.png" style="display: block; margin: 0 auto;" alt="Project Logo" border="0">
+<p align="center">
+  <img src="https://i.ibb.co/tDtzDYn/esk.png" alt="Everyone Should Know Logo" border="0">
+</p>
 
 <br>
 
